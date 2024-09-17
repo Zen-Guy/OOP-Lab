@@ -15,7 +15,7 @@ ind = 0
 print('*************************BILL*******************************')
 print('Item Name            Item Quantity                 Item Price')
 for i in range(num):
-    print(f'{bill[ind]}                       {bill[ind+1]}                             {bill[ind+2]}')
+    print(f'{bill[ind]}        {bill[ind+1]}                {bill[ind+2]}')
     ind += 3
 print('************************************************************')
 print(f'Total amount to be paid:                                {sum}')
